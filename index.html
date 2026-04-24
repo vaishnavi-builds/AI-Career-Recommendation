@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerAI — Smart Career & Course Recommendation System</title>
+  <meta name="description"
+    content="Get personalized career path and upskilling course recommendations powered by AI. Tailored for students at every education level." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animation">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="particles" id="particles"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon">🚀</div>
+        <span class="logo-text">Career<span class="accent">AI</span></span>
+      </div>
+      <nav class="nav-pills">
+        <span class="nav-badge">Beta</span>
+        <span class="nav-tag">✨ Free to use</span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        AI-Powered Guidance System
+      </div>
+      <h1 class="hero-title">
+        Discover Your<br />
+        <span class="gradient-text">Perfect Career Path</span>
+      </h1>
+      <p class="hero-subtitle">
+        Tell us your skills, interests &amp; education level — and we'll map out your top 5 career paths with
+        hand-picked courses to get you there. 🎯
+      </p>
+      <button class="btn-primary hero-cta" onclick="scrollToForm()">
+        <span>Get My Recommendations</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </button>
+      <div class="hero-stats">
+        <div class="stat"><strong>50+</strong><span>Career Paths</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>100+</strong><span>Courses</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>8</strong><span>Domains</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-card card-1">
+        <div class="card-icon">💻</div>
+        <div class="card-info"><strong>Software Engineer</strong><span>Match: 94%</span></div>
+      </div>
+      <div class="floating-card card-2">
+        <div class="card-icon">📊</div>
+        <div class="card-info"><strong>Data Scientist</strong><span>Match: 88%</span></div>
+      </div>
+      <div class="floating-card card-3">
+        <div class="card-icon">🎨</div>
+        <div class="card-info"><strong>UX Designer</strong><span>Match: 82%</span></div>
+      </div>
+      <div class="center-circle">
+        <div class="circle-text">YOU</div>
+        <div class="circle-ring ring-1"></div>
+        <div class="circle-ring ring-2"></div>
+        <div class="circle-ring ring-3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Input Form Section -->
+  <section class="form-section" id="form-section">
+    <div class="container">
+      <div class="section-label">Step 1 of 1 — Fill in your profile</div>
+      <h2 class="section-title">Tell Us About <span class="gradient-text">Yourself</span></h2>
+      <p class="section-sub">The more you share, the better we can guide you. All fields are helpful!</p>
+
+      <div class="form-card" id="form-card">
+        <!-- Step 1: Skills -->
+        <div class="form-group">
+          <label class="form-label">
+            <span class="label-icon">⚡</span>
+            Your Current Skills
+            <span class="label-required">*</span>
+          </label>
+          <p class="label-hint">Type a skill and press Enter or comma to add it</p>
+          <div class="tag-input-wrapper" id="skills">
+            <div class="tags-container" id="skills-tags"></div>
+            <input type="text" id="skills-input" class="tag-input" placeholder="e.g. Python, design, math..." />
+          </div>
+          <div class="quick-add-label">Quick add:</div>
+          <div class="quick-chips" id="skills-chips">
+            <button class="chip" onclick="addQuickTag('skills','Python')">Python</button>
+            <button class="chip" onclick="addQuickTag('skills','JavaScript')">JavaScript</button>
+            <button class="chip" onclick="addQuickTag('skills','Communication')">Communication</button>
+            <button class="chip" onclick="addQuickTag('skills','Design')">Design</button>
+            <button class="chip" onclick="addQuickTag('skills','Mathematics')">Mathematics</button>
+            <button class="chip" onclick="addQuickTag('skills','Writing')">Writing</button>
+            <button class="chip" onclick="addQuickTag('skills','Data Analysis')">Data Analysis</button>
+            <button class="chip" onclick="addQuickTag('skills','Leadership')">Leadership</button>
+            <button class="chip" onclick="addQuickTag('skills','Research')">Research</button>
+            <button class="chip" onclick="addQuickTag('skills','Problem Solving')">Problem Solving</button>
+          </div>
+        </div>
+
+        <!-- Step 2: Interests -->
+        <div class="form-group">
+          <label class="form-label">
+            <span class="label-icon">❤️</span>
+            Your Interests &amp; Passions
+            <span class="label-required">*</span>
+          </label>
+          <p class="label-hint">What topics excite you most?</p>
+          <div class="tag-input-wrapper" id="interests">
+            <div class="tags-container" id="interests-tags"></div>
+            <input type="text" id="interests-input" class="tag-input"
+              placeholder="e.g. technology, healthcare, arts..." />
+          </div>
+          <div class="quick-add-label">Quick add:</div>
+          <div class="quick-chips">
+            <button class="chip" onclick="addQuickTag('interests','Technology')">Technology</button>
+            <button class="chip" onclick="addQuickTag('interests','Healthcare')">Healthcare</button>
+            <button class="chip" onclick="addQuickTag('interests','Finance')">Finance</button>
+            <button class="chip" onclick="addQuickTag('interests','Creative Arts')">Creative Arts</button>
+            <button class="chip" onclick="addQuickTag('interests','Business')">Business</button>
+            <button class="chip" onclick="addQuickTag('interests','Environment')">Environment</button>
+            <button class="chip" onclick="addQuickTag('interests','Education')">Education</button>
+            <button class="chip" onclick="addQuickTag('interests','Gaming')">Gaming</button>
+            <button class="chip" onclick="addQuickTag('interests','Science')">Science</button>
+            <button class="chip" onclick="addQuickTag('interests','Law')">Law</button>
+          </div>
+        </div>
+
+        <!-- Step 3: Education -->
+        <div class="form-group">
+          <label class="form-label">
+            <span class="label-icon">🎓</span>
+            Education Level
+            <span class="label-required">*</span>
+          </label>
+
+          <input type="text" id="education-input" list="education-list" class="tag-input"
+            placeholder="Type your education...">
+
+          <datalist id="education-list"></datalist>
+        </div>
+
+        <!-- Step 4: Work Style (Optional) -->
+        <div class="form-group">
+          <label class="form-label">
+            <span class="label-icon">🧩</span>
+            Work Style Preferences
+            <span class="label-optional">(Optional)</span>
+          </label>
+          <div class="pref-grid" id="workstyle">
+            <div class="pref-group">
+              <div class="pref-label">Location</div>
+              <div class="toggle-group">
+                <button class="toggle-btn active" data-group="location" data-value="remote"
+                  onclick="selectPref(this)">🏠 Remote</button>
+                <button class="toggle-btn" data-group="location" data-value="onsite" onclick="selectPref(this)">🏢
+                  On-site</button>
+                <button class="toggle-btn" data-group="location" data-value="hybrid" onclick="selectPref(this)">🔀
+                  Hybrid</button>
+              </div>
+            </div>
+            <div class="pref-group">
+              <div class="pref-label">Style</div>
+              <div class="toggle-group">
+                <button class="toggle-btn" data-group="style" data-value="creative" onclick="selectPref(this)">🎨
+                  Creative</button>
+                <button class="toggle-btn active" data-group="style" data-value="analytical"
+                  onclick="selectPref(this)">📊 Analytical</button>
+                <button class="toggle-btn" data-group="style" data-value="both" onclick="selectPref(this)">⚡
+                  Both</button>
+              </div>
+            </div>
+            <div class="pref-group">
+              <div class="pref-label">Team</div>
+              <div class="toggle-group">
+                <button class="toggle-btn" data-group="team" data-value="solo" onclick="selectPref(this)">🧍
+                  Solo</button>
+                <button class="toggle-btn active" data-group="team" data-value="team" onclick="selectPref(this)">👥
+                  Team</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-primary btn-full" id="generate-btn" onclick="generateRecommendations()">
+          <span id="btn-text">✨ Generate My Career Roadmap</span>
+          <div class="btn-loader" id="btn-loader" style="display:none">
+            <div class="spinner"></div>
+            <span>Analyzing your profile...</span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section class="results-section" id="results-section" style="display:none">
+    <div class="container">
+      <div class="results-header">
+        <div class="results-badge">🎉 Your Personalized Roadmap</div>
+        <h2 class="section-title">Top <span class="gradient-text">5 Career Paths</span> For You</h2>
+        <div class="profile-summary" id="profile-summary"></div>
+      </div>
+
+      <!-- Visual Score Chart -->
+      <div class="score-chart-card" id="score-chart"></div>
+
+      <!-- Career Cards -->
+      <div class="careers-grid" id="careers-grid"></div>
+      <div id="result"></div>
+      <!-- Start Over Button -->
+      <div class="restart-section">
+        <button class="btn-secondary" onclick="restartForm()">
+          🔄 Try Different Profile
+        </button>
+        <button class="btn-primary" onclick="window.print()">
+          📄 Save as PDF
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About + Contact Section -->
+  <section class="about-contact">
+    <div class="container">
+
+      <div class="about-box">
+        <h2>About CareerAI</h2>
+        <p>
+          CareerAI is an AI-driven career recommendation platform designed to help
+          students discover the best career paths based on their skills, interests,
+          education level, and work preferences.<br>The system intelligently analyzes
+          user input and suggests suitable careers along with courses, salary range,
+          and future scope to guide students in making informed decisions.
+        </p>
+      </div>
+
+      <div class="contact-box">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? We'd love to hear from you.</p>
+
+        <div class="contact-info">
+          <p>📧 Email: careerai@gmail.com</p>
+          <p>📍 Location: India</p>
+          <p>💬 Support: Available 24/7</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Career<span class="accent">AI</span></div>
+      <p>Built to empower students with smart, personalized career guidance.</p>
+      <div class="footer-tags">
+        <span>Free Forever</span>
+        <span>No Login Required</span>
+        <span>AI-Powered</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

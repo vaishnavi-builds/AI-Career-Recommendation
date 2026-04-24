@@ -1,0 +1,1005 @@
+{
+    "current_skills": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "Data Analysis",
+        "Machine Learning",
+        "Deep Learning",
+        "Statistics",
+        "UI Design",
+        "UX Research",
+        "Figma",
+        "Adobe XD",
+        "Photoshop",
+        "Illustrator",
+        "SEO",
+        "Content Writing",
+        "Social Media Marketing",
+        "Google Analytics",
+        "Teaching",
+        "Curriculum Development",
+        "Public Speaking",
+        "Communication",
+        "Patient Care",
+        "Medical Terminology",
+        "First Aid",
+        "Anatomy",
+        "Business Analysis",
+        "Project Management",
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "AutoCAD",
+        "SolidWorks",
+        "Thermodynamics",
+        "Mechanical Design",
+        "Network Security",
+        "Ethical Hacking",
+        "Linux",
+        "Cryptography",
+        "Firewalls",
+        "Problem Solving",
+        "Critical Thinking",
+        "Teamwork",
+        "Time Management",
+        "Research",
+        "Data Visualization",
+        "Cloud Computing",
+        "DevOps"
+    ],
+    "interests_and_passions": [
+        "Technology",
+        "Programming",
+        "Artificial Intelligence",
+        "Robotics",
+        "Design",
+        "Creativity",
+        "Art",
+        "Visual Communication",
+        "Healthcare",
+        "Medicine",
+        "Helping People",
+        "Biology",
+        "Business",
+        "Entrepreneurship",
+        "Finance",
+        "Economics",
+        "Education",
+        "Teaching",
+        "Child Development",
+        "Mentoring",
+        "Marketing",
+        "Branding",
+        "Advertising",
+        "Digital Media",
+        "Engineering",
+        "Manufacturing",
+        "Automobiles",
+        "Mechanics",
+        "Cybersecurity",
+        "Privacy",
+        "Ethical Technology",
+        "Hacking",
+        "Data",
+        "Analytics",
+        "Research",
+        "Science",
+        "Environment",
+        "Sustainability",
+        "Social Impact",
+        "Innovation"
+    ],
+    "education_levels": [
+        "10th Grade",
+        "12th Grade (Science)",
+        "12th Grade (Commerce)",
+        "12th Grade (Arts)",
+        "Diploma",
+        "Bachelor of Technology (B.Tech)",
+        "Bachelor of Science (B.Sc)",
+        "Bachelor of Commerce (B.Com)",
+        "Bachelor of Arts (BA)",
+        "Bachelor of Computer Applications (BCA)",
+        "Bachelor of Business Administration (BBA)",
+        "Bachelor of Medicine (MBBS)",
+        "Bachelor of Nursing (B.Sc Nursing)",
+        "Master of Technology (M.Tech)",
+        "Master of Science (M.Sc)",
+        "Master of Business Administration (MBA)",
+        "Master of Computer Applications (MCA)",
+        "PhD / Doctorate"
+    ],
+    "work_style_preferences": [
+        "Remote",
+        "On-site",
+        "Hybrid",
+        "Creative",
+        "Analytical",
+        "Solo",
+        "Team-oriented",
+        "Structured",
+        "Flexible",
+        "Fast-paced",
+        "Leadership",
+        "Research-driven",
+        "Field Work",
+        "Desk Job",
+        "People-facing"
+    ],
+    "careers": [
+        {
+            "career_id": "C001",
+            "career_name": "Software Developer",
+            "description": "Design, develop, test, and maintain software applications for web, mobile, or desktop platforms using programming languages and frameworks.",
+            "required_skills": [
+                "JavaScript",
+                "Python",
+                "Java",
+                "HTML",
+                "CSS",
+                "SQL",
+                "Problem Solving",
+                "Git",
+                "Data Structures",
+                "Algorithms"
+            ],
+            "matching_interests": [
+                "Technology",
+                "Programming",
+                "Artificial Intelligence",
+                "Innovation"
+            ],
+            "suitable_education": [
+                "Bachelor of Technology (B.Tech)",
+                "Bachelor of Computer Applications (BCA)",
+                "Master of Computer Applications (MCA)",
+                "Bachelor of Science (B.Sc)",
+                "Diploma"
+            ],
+            "work_style": [
+                "Remote",
+                "Hybrid",
+                "Analytical",
+                "Team-oriented",
+                "Flexible"
+            ],
+            "market_growth": "High",
+            "average_salary_range_inr": "4,00,000 - 25,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "The Complete Web Developer Bootcamp",
+                    "platform": "Udemy",
+                    "duration": "65 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript",
+                        "Node.js",
+                        "React"
+                    ],
+                    "url": "https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+                },
+                {
+                    "course_name": "CS50: Introduction to Computer Science",
+                    "platform": "edX (Harvard)",
+                    "duration": "12 weeks",
+                    "cost": "Free (Certificate paid)",
+                    "skill_tags": [
+                        "C",
+                        "Python",
+                        "Algorithms",
+                        "Data Structures"
+                    ],
+                    "url": "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x"
+                },
+                {
+                    "course_name": "Full Stack Development with React",
+                    "platform": "Coursera",
+                    "duration": "6 months",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "React",
+                        "Node.js",
+                        "MongoDB",
+                        "REST APIs"
+                    ],
+                    "url": "https://www.coursera.org/specializations/full-stack-react"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "Data Structures",
+                "System Design",
+                "Cloud Basics"
+            ],
+            "future_scope": "Extremely high demand globally. Roles expanding into AI-assisted development, cloud-native apps, and full-stack engineering. Remote opportunities abundant across startups and MNCs."
+        },
+        {
+            "career_id": "C002",
+            "career_name": "Data Scientist",
+            "description": "Extract meaningful insights from large datasets using statistical analysis, machine learning models, and data visualization to support business decision-making.",
+            "required_skills": [
+                "Python",
+                "R",
+                "SQL",
+                "Machine Learning",
+                "Deep Learning",
+                "Statistics",
+                "Data Visualization",
+                "Tableau",
+                "Power BI",
+                "Excel"
+            ],
+            "matching_interests": [
+                "Data",
+                "Analytics",
+                "Research",
+                "Artificial Intelligence",
+                "Science",
+                "Technology"
+            ],
+            "suitable_education": [
+                "Bachelor of Science (B.Sc)",
+                "Bachelor of Technology (B.Tech)",
+                "Master of Science (M.Sc)",
+                "Master of Technology (M.Tech)",
+                "PhD / Doctorate"
+            ],
+            "work_style": [
+                "Analytical",
+                "Research-driven",
+                "Remote",
+                "Solo",
+                "Desk Job"
+            ],
+            "market_growth": "High",
+            "average_salary_range_inr": "6,00,000 - 30,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "IBM Data Science Professional Certificate",
+                    "platform": "Coursera",
+                    "duration": "10 months",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Python",
+                        "SQL",
+                        "Machine Learning",
+                        "Data Visualization"
+                    ],
+                    "url": "https://www.coursera.org/professional-certificates/ibm-data-science"
+                },
+                {
+                    "course_name": "Data Science with Python",
+                    "platform": "NPTEL",
+                    "duration": "12 weeks",
+                    "cost": "Free",
+                    "skill_tags": [
+                        "Python",
+                        "Pandas",
+                        "NumPy",
+                        "Matplotlib"
+                    ],
+                    "url": "https://nptel.ac.in/courses/106/106/106106212/"
+                },
+                {
+                    "course_name": "Machine Learning A-Z",
+                    "platform": "Udemy",
+                    "duration": "44 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "ML Algorithms",
+                        "Python",
+                        "R",
+                        "Model Evaluation"
+                    ],
+                    "url": "https://www.udemy.com/course/machinelearning/"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "Deep Learning",
+                "Big Data Tools (Spark, Hadoop)",
+                "Model Deployment"
+            ],
+            "future_scope": "One of the fastest-growing roles globally. Critical in finance, healthcare, retail, and government. Advanced roles include ML Engineer, AI Researcher, and Chief Data Officer."
+        },
+        {
+            "career_id": "C003",
+            "career_name": "UI/UX Designer",
+            "description": "Design intuitive user interfaces and experiences for digital products by conducting user research, creating wireframes, prototypes, and conducting usability testing.",
+            "required_skills": [
+                "UI Design",
+                "UX Research",
+                "Figma",
+                "Adobe XD",
+                "Wireframing",
+                "Prototyping",
+                "User Testing",
+                "HTML",
+                "CSS",
+                "Communication"
+            ],
+            "matching_interests": [
+                "Design",
+                "Creativity",
+                "Art",
+                "Technology",
+                "Visual Communication",
+                "Innovation"
+            ],
+            "suitable_education": [
+                "Bachelor of Technology (B.Tech)",
+                "Bachelor of Arts (BA)",
+                "Bachelor of Computer Applications (BCA)",
+                "Diploma",
+                "Bachelor of Science (B.Sc)"
+            ],
+            "work_style": [
+                "Creative",
+                "Remote",
+                "Hybrid",
+                "Team-oriented",
+                "People-facing"
+            ],
+            "market_growth": "High",
+            "average_salary_range_inr": "3,50,000 - 18,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "Google UX Design Professional Certificate",
+                    "platform": "Coursera",
+                    "duration": "6 months",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "UX Research",
+                        "Wireframing",
+                        "Figma",
+                        "Prototyping"
+                    ],
+                    "url": "https://www.coursera.org/professional-certificates/google-ux-design"
+                },
+                {
+                    "course_name": "UI/UX Design Bootcamp",
+                    "platform": "Udemy",
+                    "duration": "40 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "Figma",
+                        "Adobe XD",
+                        "User Research",
+                        "Design Systems"
+                    ],
+                    "url": "https://www.udemy.com/course/ui-ux-web-design-using-adobe-xd/"
+                },
+                {
+                    "course_name": "Human-Computer Interaction",
+                    "platform": "Coursera (UC San Diego)",
+                    "duration": "6 weeks",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "HCI Principles",
+                        "Usability",
+                        "Interaction Design"
+                    ],
+                    "url": "https://www.coursera.org/learn/human-computer-interaction"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "Design Systems",
+                "Motion Design",
+                "Accessibility Standards"
+            ],
+            "future_scope": "Growing demand across tech, fintech, and e-commerce. Product Designer and Design Lead roles offer strong career progression. Portfolio-driven field with strong freelance potential."
+        },
+        {
+            "career_id": "C004",
+            "career_name": "Digital Marketing Specialist",
+            "description": "Plan and execute online marketing strategies including SEO, social media, email campaigns, paid advertising, and content marketing to grow brand presence and revenue.",
+            "required_skills": [
+                "SEO",
+                "Content Writing",
+                "Social Media Marketing",
+                "Google Analytics",
+                "Email Marketing",
+                "PPC Advertising",
+                "Canva",
+                "Communication",
+                "Data Analysis"
+            ],
+            "matching_interests": [
+                "Marketing",
+                "Branding",
+                "Advertising",
+                "Digital Media",
+                "Business",
+                "Creativity"
+            ],
+            "suitable_education": [
+                "Bachelor of Business Administration (BBA)",
+                "Bachelor of Commerce (B.Com)",
+                "Bachelor of Arts (BA)",
+                "Master of Business Administration (MBA)",
+                "12th Grade (Commerce)"
+            ],
+            "work_style": [
+                "Creative",
+                "Remote",
+                "Hybrid",
+                "Fast-paced",
+                "Team-oriented"
+            ],
+            "market_growth": "High",
+            "average_salary_range_inr": "2,50,000 - 12,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "Google Digital Marketing & E-commerce Certificate",
+                    "platform": "Coursera",
+                    "duration": "6 months",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "SEO",
+                        "SEM",
+                        "Email Marketing",
+                        "Analytics",
+                        "E-commerce"
+                    ],
+                    "url": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce"
+                },
+                {
+                    "course_name": "Digital Marketing Full Course",
+                    "platform": "Udemy",
+                    "duration": "22 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "SEO",
+                        "Facebook Ads",
+                        "Google Ads",
+                        "Content Strategy"
+                    ],
+                    "url": "https://www.udemy.com/course/learn-digital-marketing-course/"
+                },
+                {
+                    "course_name": "Fundamentals of Digital Marketing",
+                    "platform": "Google Skillshop",
+                    "duration": "40 hours",
+                    "cost": "Free",
+                    "skill_tags": [
+                        "Google Ads",
+                        "Analytics",
+                        "SEO",
+                        "Social Media"
+                    ],
+                    "url": "https://skillshop.withgoogle.com/"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "Advanced Analytics",
+                "Marketing Automation",
+                "Video Marketing"
+            ],
+            "future_scope": "Every business needs digital presence — demand is universal. Specializations in performance marketing, growth hacking, and influencer marketing are high-paying niches."
+        },
+        {
+            "career_id": "C005",
+            "career_name": "Teacher / Educator",
+            "description": "Facilitate learning by delivering subject-matter instruction, designing curriculum, mentoring students, and evaluating academic progress in schools, colleges, or online platforms.",
+            "required_skills": [
+                "Teaching",
+                "Curriculum Development",
+                "Public Speaking",
+                "Communication",
+                "Research",
+                "Classroom Management",
+                "Mentoring",
+                "Subject Expertise",
+                "Patience"
+            ],
+            "matching_interests": [
+                "Education",
+                "Teaching",
+                "Child Development",
+                "Mentoring",
+                "Social Impact",
+                "Research"
+            ],
+            "suitable_education": [
+                "Bachelor of Arts (BA)",
+                "Bachelor of Science (B.Sc)",
+                "Bachelor of Technology (B.Tech)",
+                "Master of Science (M.Sc)",
+                "Master of Technology (M.Tech)",
+                "PhD / Doctorate"
+            ],
+            "work_style": [
+                "People-facing",
+                "Structured",
+                "On-site",
+                "Hybrid",
+                "Team-oriented"
+            ],
+            "market_growth": "Medium",
+            "average_salary_range_inr": "2,00,000 - 10,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "Learning to Teach Online",
+                    "platform": "Coursera (UNSW)",
+                    "duration": "5 weeks",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Online Teaching",
+                        "Course Design",
+                        "Student Engagement"
+                    ],
+                    "url": "https://www.coursera.org/learn/teach-online"
+                },
+                {
+                    "course_name": "Teaching as a Profession",
+                    "platform": "edX",
+                    "duration": "4 weeks",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Pedagogy",
+                        "Lesson Planning",
+                        "Assessment Strategies"
+                    ],
+                    "url": "https://www.edx.org/"
+                },
+                {
+                    "course_name": "Become a SuperLearner",
+                    "platform": "Udemy",
+                    "duration": "10 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "Speed Learning",
+                        "Memory Techniques",
+                        "Knowledge Transfer"
+                    ],
+                    "url": "https://www.udemy.com/course/become-a-superlearner-2-speed-reading-memory/"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "EdTech Tools",
+                "Inclusive Teaching Methods",
+                "Assessment Design"
+            ],
+            "future_scope": "Growth in online education, EdTech platforms, and corporate training. High-demand subjects: STEM, coding, and professional skills. YouTube/course creator path offers high income potential."
+        },
+        {
+            "career_id": "C006",
+            "career_name": "Nurse",
+            "description": "Provide direct patient care, administer medications, assist doctors, monitor health conditions, and educate patients in clinical or community healthcare settings.",
+            "required_skills": [
+                "Patient Care",
+                "Medical Terminology",
+                "First Aid",
+                "Anatomy",
+                "Communication",
+                "Empathy",
+                "Critical Thinking",
+                "Clinical Procedures",
+                "Teamwork"
+            ],
+            "matching_interests": [
+                "Healthcare",
+                "Medicine",
+                "Helping People",
+                "Biology",
+                "Social Impact"
+            ],
+            "suitable_education": [
+                "Bachelor of Nursing (B.Sc Nursing)",
+                "Bachelor of Medicine (MBBS)",
+                "Diploma",
+                "Master of Science (M.Sc)"
+            ],
+            "work_style": [
+                "People-facing",
+                "Field Work",
+                "On-site",
+                "Team-oriented",
+                "Structured"
+            ],
+            "market_growth": "High",
+            "average_salary_range_inr": "2,50,000 - 9,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "Patient Safety",
+                    "platform": "Coursera (Johns Hopkins)",
+                    "duration": "4 weeks",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Clinical Safety",
+                        "Error Prevention",
+                        "Healthcare Systems"
+                    ],
+                    "url": "https://www.coursera.org/learn/patient-safety"
+                },
+                {
+                    "course_name": "Anatomy & Physiology",
+                    "platform": "Khan Academy",
+                    "duration": "Self-paced",
+                    "cost": "Free",
+                    "skill_tags": [
+                        "Anatomy",
+                        "Physiology",
+                        "Body Systems"
+                    ],
+                    "url": "https://www.khanacademy.org/science/health-and-medicine"
+                },
+                {
+                    "course_name": "Everyday Excel (for healthcare data)",
+                    "platform": "Coursera",
+                    "duration": "3 weeks",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Data Tracking",
+                        "Excel",
+                        "Patient Records"
+                    ],
+                    "url": "https://www.coursera.org/learn/everyday-excel-part-1"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "Electronic Health Records (EHR)",
+                "Specialized Care (ICU/Pediatrics)",
+                "Mental Health First Aid"
+            ],
+            "future_scope": "One of the most in-demand professions globally. Specializations in ICU, oncology, and public health nursing offer higher pay. International opportunities in the US, UK, Canada, and Australia."
+        },
+        {
+            "career_id": "C007",
+            "career_name": "Business Analyst",
+            "description": "Bridge the gap between business needs and IT solutions by gathering requirements, analyzing processes, and recommending data-driven improvements to stakeholders.",
+            "required_skills": [
+                "Business Analysis",
+                "Project Management",
+                "Excel",
+                "Power BI",
+                "Tableau",
+                "SQL",
+                "Communication",
+                "Problem Solving",
+                "Stakeholder Management"
+            ],
+            "matching_interests": [
+                "Business",
+                "Data",
+                "Analytics",
+                "Finance",
+                "Entrepreneurship",
+                "Technology"
+            ],
+            "suitable_education": [
+                "Bachelor of Business Administration (BBA)",
+                "Bachelor of Commerce (B.Com)",
+                "Master of Business Administration (MBA)",
+                "Bachelor of Technology (B.Tech)",
+                "Bachelor of Science (B.Sc)"
+            ],
+            "work_style": [
+                "Analytical",
+                "Team-oriented",
+                "Hybrid",
+                "Structured",
+                "People-facing"
+            ],
+            "market_growth": "High",
+            "average_salary_range_inr": "4,00,000 - 16,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "Business Analysis Fundamentals",
+                    "platform": "Udemy",
+                    "duration": "8 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "Requirements Gathering",
+                        "Process Modeling",
+                        "Use Cases"
+                    ],
+                    "url": "https://www.udemy.com/course/business-analysis-ba/"
+                },
+                {
+                    "course_name": "Data Analysis with Python",
+                    "platform": "Coursera (IBM)",
+                    "duration": "5 weeks",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Python",
+                        "Pandas",
+                        "Data Wrangling",
+                        "Visualization"
+                    ],
+                    "url": "https://www.coursera.org/learn/data-analysis-with-python"
+                },
+                {
+                    "course_name": "Excel Skills for Business",
+                    "platform": "Coursera (Macquarie University)",
+                    "duration": "6 months",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Excel",
+                        "Pivot Tables",
+                        "Dashboards",
+                        "Formulas"
+                    ],
+                    "url": "https://www.coursera.org/specializations/excel"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "Agile/Scrum Methodology",
+                "JIRA",
+                "Advanced SQL"
+            ],
+            "future_scope": "Critical role in every industry undergoing digital transformation. Path leads to Product Manager, Solutions Architect, or Chief Strategy Officer with experience and certifications."
+        },
+        {
+            "career_id": "C008",
+            "career_name": "Mechanical Engineer",
+            "description": "Design, analyze, and manufacture mechanical systems and products including engines, machines, tools, and thermal devices using engineering principles and CAD software.",
+            "required_skills": [
+                "AutoCAD",
+                "SolidWorks",
+                "Thermodynamics",
+                "Mechanical Design",
+                "Fluid Mechanics",
+                "Manufacturing Processes",
+                "Mathematics",
+                "Problem Solving",
+                "MATLAB"
+            ],
+            "matching_interests": [
+                "Engineering",
+                "Manufacturing",
+                "Automobiles",
+                "Mechanics",
+                "Robotics",
+                "Innovation"
+            ],
+            "suitable_education": [
+                "Bachelor of Technology (B.Tech)",
+                "Diploma",
+                "Master of Technology (M.Tech)",
+                "Bachelor of Science (B.Sc)"
+            ],
+            "work_style": [
+                "Analytical",
+                "On-site",
+                "Field Work",
+                "Team-oriented",
+                "Structured"
+            ],
+            "market_growth": "Medium",
+            "average_salary_range_inr": "3,00,000 - 14,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "AutoCAD: Complete Guide",
+                    "platform": "Udemy",
+                    "duration": "12 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "2D Drafting",
+                        "3D Modeling",
+                        "Technical Drawing"
+                    ],
+                    "url": "https://www.udemy.com/course/autocad-2d-and-3d-practice-drawings/"
+                },
+                {
+                    "course_name": "Introduction to Engineering Mechanics",
+                    "platform": "Coursera (Georgia Tech)",
+                    "duration": "8 weeks",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Statics",
+                        "Dynamics",
+                        "Force Analysis"
+                    ],
+                    "url": "https://www.coursera.org/learn/engineering-mechanics-statics"
+                },
+                {
+                    "course_name": "MATLAB & Simulink for Engineers",
+                    "platform": "NPTEL",
+                    "duration": "12 weeks",
+                    "cost": "Free",
+                    "skill_tags": [
+                        "MATLAB",
+                        "Simulation",
+                        "Control Systems"
+                    ],
+                    "url": "https://nptel.ac.in/"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "FEA/FEM Analysis",
+                "Industry 4.0 & IoT",
+                "Project Management"
+            ],
+            "future_scope": "Strong demand in automotive, aerospace, defence, and renewable energy. Emerging roles in robotics, EV design, and smart manufacturing offer high growth potential."
+        },
+        {
+            "career_id": "C009",
+            "career_name": "Graphic Designer",
+            "description": "Create visual content including logos, branding materials, social media graphics, advertisements, and print designs using creative tools to communicate messages effectively.",
+            "required_skills": [
+                "Photoshop",
+                "Illustrator",
+                "InDesign",
+                "Canva",
+                "Typography",
+                "Color Theory",
+                "Branding",
+                "Creative Thinking",
+                "Communication"
+            ],
+            "matching_interests": [
+                "Design",
+                "Creativity",
+                "Art",
+                "Visual Communication",
+                "Marketing",
+                "Branding"
+            ],
+            "suitable_education": [
+                "Bachelor of Arts (BA)",
+                "Bachelor of Technology (B.Tech)",
+                "Diploma",
+                "12th Grade (Arts)",
+                "12th Grade (Science)"
+            ],
+            "work_style": [
+                "Creative",
+                "Remote",
+                "Flexible",
+                "Solo",
+                "Freelance-friendly"
+            ],
+            "market_growth": "Medium",
+            "average_salary_range_inr": "2,00,000 - 10,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "Adobe Photoshop CC: Complete Beginner to Advanced",
+                    "platform": "Udemy",
+                    "duration": "25 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "Photoshop",
+                        "Photo Editing",
+                        "Compositing",
+                        "Digital Art"
+                    ],
+                    "url": "https://www.udemy.com/course/photoshop-fundamentals/"
+                },
+                {
+                    "course_name": "Graphic Design Specialization",
+                    "platform": "Coursera (CalArts)",
+                    "duration": "5 months",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Typography",
+                        "Composition",
+                        "Color Theory",
+                        "Branding"
+                    ],
+                    "url": "https://www.coursera.org/specializations/graphic-design"
+                },
+                {
+                    "course_name": "Canva for Beginners",
+                    "platform": "Canva Design School",
+                    "duration": "Self-paced",
+                    "cost": "Free",
+                    "skill_tags": [
+                        "Canva",
+                        "Social Media Graphics",
+                        "Presentations"
+                    ],
+                    "url": "https://www.canva.com/designschool/"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "Motion Graphics (After Effects)",
+                "UI Design Basics",
+                "Brand Strategy"
+            ],
+            "future_scope": "High freelance and agency demand. Expanding into motion graphics, UI, and video content. Platforms like Fiverr and 99designs offer global client access for independent designers."
+        },
+        {
+            "career_id": "C010",
+            "career_name": "Cyber Security Analyst",
+            "description": "Protect organizational networks and systems from cyber threats by monitoring security infrastructure, identifying vulnerabilities, conducting penetration testing, and implementing defence strategies.",
+            "required_skills": [
+                "Network Security",
+                "Ethical Hacking",
+                "Linux",
+                "Cryptography",
+                "Firewalls",
+                "SIEM Tools",
+                "Python",
+                "Vulnerability Assessment",
+                "Incident Response",
+                "CompTIA Security+"
+            ],
+            "matching_interests": [
+                "Cybersecurity",
+                "Privacy",
+                "Ethical Technology",
+                "Hacking",
+                "Technology",
+                "Research"
+            ],
+            "suitable_education": [
+                "Bachelor of Technology (B.Tech)",
+                "Bachelor of Computer Applications (BCA)",
+                "Master of Technology (M.Tech)",
+                "Master of Computer Applications (MCA)",
+                "Bachelor of Science (B.Sc)"
+            ],
+            "work_style": [
+                "Analytical",
+                "Remote",
+                "Hybrid",
+                "Solo",
+                "Research-driven"
+            ],
+            "market_growth": "High",
+            "average_salary_range_inr": "5,00,000 - 22,00,000 per annum",
+            "recommended_courses": [
+                {
+                    "course_name": "Google Cybersecurity Professional Certificate",
+                    "platform": "Coursera",
+                    "duration": "6 months",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Network Security",
+                        "Python",
+                        "SIEM",
+                        "Incident Response"
+                    ],
+                    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity"
+                },
+                {
+                    "course_name": "The Complete Cyber Security Course",
+                    "platform": "Udemy",
+                    "duration": "17 hours",
+                    "cost": "Paid (affordable)",
+                    "skill_tags": [
+                        "Network Security",
+                        "Encryption",
+                        "Dark Web",
+                        "Anonymity"
+                    ],
+                    "url": "https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/"
+                },
+                {
+                    "course_name": "Ethical Hacking for Beginners",
+                    "platform": "edX",
+                    "duration": "6 weeks",
+                    "cost": "Free to audit",
+                    "skill_tags": [
+                        "Penetration Testing",
+                        "Kali Linux",
+                        "Vulnerability Scanning"
+                    ],
+                    "url": "https://www.edx.org/"
+                }
+            ],
+            "skill_gaps_to_bridge": [
+                "Cloud Security (AWS/Azure)",
+                "Certified Ethical Hacker (CEH)",
+                "Forensics"
+            ],
+            "future_scope": "One of the most critical and high-paying fields globally. Zero unemployment in some regions. Advanced roles include Security Architect, CISO, and Penetration Testing Lead."
+        }
+    ],
+    "metadata": {
+        "version": "1.0",
+        "created_for": "AI-Driven Career & Course Recommendation System",
+        "total_careers": 10,
+        "total_skills": 50,
+        "total_interests": 40,
+        "total_education_levels": 18,
+        "data_last_updated": "2025",
+        "recommendation_logic": "keyword_matching_with_market_weight"
+    }
+}
